@@ -40,7 +40,7 @@ updatePlanet() {
 
   render () {
 
-      const {name, population, rotationPeriod, diameter} = this.state
+      const {name, population, rotationPeriod, diameter} = this.state;
 
     return (
         <div className="random-planet jumbotron rounded">
