@@ -1,17 +1,30 @@
 import React from 'react';
-
 import './App.css';
+import Header from '../header';
+import RandomPlanet from '../random-planet';
+import ItemList from '../item-list';
+import PersonDetails from '../person-details';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code>
-        </p>
-
-      </header>
+<div>
+    <div>
+	<Header/>
+        <RandomPlanet/>
     </div>
+    <div className="row">
+        <div className="col-md-6">
+            <ItemList/>
+        </div>
+        <div className="col-md-6">
+            <PersonDetails />
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
   );
 }
 
