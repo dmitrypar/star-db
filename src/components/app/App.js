@@ -11,10 +11,10 @@ const App = () => {
 <div>
     <div>
 	<Header/>
-        <RandomPlanet/>
+        <RandomPlanet />
     </div>
     <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 mb2">
             <ItemList/>
         </div>
         <div className="col-md-6">
