@@ -18,24 +18,25 @@ export default class RandomPlanet extends Component {
         error: false
     };
 
-    constructor() {
-        super();
+    componentDidMount() {
         this.updatePlanet();
         setInterval(this.updatePlanet, 25000);
     }
 
     onPlanetLoaded = (planet) => {
-        this.setState({planet,
-            loading:false, 
-          error: false} 
-            );
+        this.setState({
+                planet,
+                loading: false,
+                error: false
+            }
+        );
     };
 
     onError = (err) => {
-this.setState ({
-  error: true,
-  loading: false
-})
+        this.setState({
+            error: true,
+            loading: false
+        })
     };
 
     updatePlanet = () => {
@@ -46,23 +47,22 @@ this.setState ({
             .catch(this.onError);
     }
 
-   
+
     render() {
 
-const { planet, loading, error} = this.state;
+        const {planet, loading, error} = this.state;
 
-const hasData = !(loading || error);
+        const hasData = !(loading || error);
 
-const errorMessage = error ? <ErrorIndicator/> : null;
+        const errorMessage = error ? <ErrorIndicator/> : null;
 
-const spinner = loading ? <Spinner/> : null;
+        const spinner = loading ? <Spinner/> : null;
 
-const content = hasData ? <PlanetView planet = {planet}/> : null;
-        
-/*if(loading) {
-   return <Spiner/>; 
-};*/
+        const content = hasData ? <PlanetView planet={planet}/> : null;
 
+        /*if(loading) {
+           return <Spiner/>;
+        };*/
 
 
         return (
@@ -77,40 +77,41 @@ const content = hasData ? <PlanetView planet = {planet}/> : null;
 }
 
 
-const PlanetView = ({ planet }) => {
+const PlanetView = ({planet}) => {
 
-        const { 
-            id,
-             name,
-              population,
-               rotationPeriod,
-                diameter}
-                  = planet;
+    const {
+        id,
+        name,
+        population,
+        rotationPeriod,
+        diameter
+    }
+        = planet;
 
     return (
-<React.Fragment>
+        <React.Fragment>
 
-                <img className="planet-image"
-                     src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`}/>
-                <div>
-                    <h4>{name}</h4>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
-                            <span className="term">Population</span>
-                            <span>{population}</span>
-                        </li>
-                        <li className="list-group-item">
-                            <span className="term">Rotation Period</span>
-                            <span>{rotationPeriod}</span>
-                        </li>
-                        <li className="list-group-item">
-                            <span className="term">Diameter</span>
-                            <span>{diameter}</span>
-                        </li>
-                    </ul>
-                </div>
+            <img className="planet-image" alt = "planet"
+                 src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`}/>
+            <div>
+                <h4>{name}</h4>
+                <ul className="list-group list-group-flush">
+                    <li className="list-group-item">
+                        <span className="term">Population</span>
+                        <span>{population}</span>
+                    </li>
+                    <li className="list-group-item">
+                        <span className="term">Rotation Period</span>
+                        <span>{rotationPeriod}</span>
+                    </li>
+                    <li className="list-group-item">
+                        <span className="term">Diameter</span>
+                        <span>{diameter}</span>
+                    </li>
+                </ul>
+            </div>
 
 
-</React.Fragment>
-        )
+        </React.Fragment>
+    )
 };
