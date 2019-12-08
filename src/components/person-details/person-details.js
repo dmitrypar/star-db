@@ -67,11 +67,11 @@ const {
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
               <span className="term">Gender</span>
-              <span>male</span>
+              <span>{gender}</span>
             </li>
             <li className="list-group-item">
               <span className="term">Birth Year</span>
-              <span>{gender}</span>
+              <span>{birthYear}</span>
             </li>
             <li className="list-group-item">
               <span className="term">Eye Color</span>
