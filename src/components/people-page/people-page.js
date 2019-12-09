@@ -1,77 +1,50 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
+import ItemList from '../item-list/item-list';
+import PersonDetails from '../person-details/person-details';
+import ErrorIndicator from '../error-indicator/error-indicator';
 
-import ItemList from '../item-list';
-import PersonDetails from '../person-details';
-import ErrorIndicator from "../error-indicator/error-indicator";
+import './people-page.css';
 import SwapiService from "../../services/swapi-service";
 
+export default class PeoplePage extends Component {
 
+  swapiService = new SwapiService();
 
-export default class PeoplePage extends Component   {
+  state = {
+    selectedPerson: 3,
+    hasError: false
+  };
 
-    swapiService = new SwapiService();
+  componentDidCatch(error, info) {
 
-    state = {
-        showRandomPlanet: true,
-        selectedItem: null,
-        hasError: false
-    };
+    this.setState({
+      hasError: true
+    });
+  }
 
+  onPersonSelected = (selectedPerson) => {
+    this.setState({ selectedPerson });
+  };
 
+  render() {
 
-
-    componentDidCatch() {
-        console.log('componentDidCatchAAA');
-        this.setState({hasError: true});
-    };
-
-
-    onPersonSelected = (id) => {
-        this.setState({
-            selectedItem: id
-        });
-    };
-
-
-    render() {
-
-        if(this.state.hasError) {
-            return <ErrorIndicator/>
-        }
-
-
-        console.log(this.state.selectedItem);
-
-        return (
-
-            <div>
-
-                <div className="row">
-                    <div className="col-md-6 mb2">
-                        <ItemList getData={this.swapiService.getAllPeople()}
-                                  onItemSelected={this.onPersonSelected}
-                                  renderItem={(item)=>item.name}/>
-                    </div>
-                    <div className="col-md-6">
-                        <PersonDetails   personId = {this.state.selectedItem}/>
-                    </div>
-                </div>
-
-
-
-
-                <div>
-
-                </div>
-            </div>
-
-
-
-        );
-
+    if (this.state.hasError) {
+      return <ErrorIndicator />;
     }
 
+    return (
+      <div className="row mb2">
+        <div className="col-md-6">
+          <ItemList
+            onItemSelected={this.onPersonSelected}
+            getData={this.swapiService.getAllPeople}
+            renderItem={(i)=>`${i.name} (${i.gender})` }/>
+        </div>
+        <div className="col-md-6">
+          <PersonDetails personId={this.state.selectedPerson} />
+        </div>
+      </div>
+    );
+  }
 }
-
-
