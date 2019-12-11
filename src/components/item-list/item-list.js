@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-
 import './item-list.css';
-import SwapiService from "../../services/swapi-service";
 import Spinner from "../spinner/spinner";
 
-export default class ItemList extends Component {
+class ItemList extends Component {
 
   state = {
     itemList: null
@@ -24,9 +22,9 @@ export default class ItemList extends Component {
 
   renderItems(arr) {
     return arr.map((item) => {
-     const  {id} = item;
-      const label = this.props.renderItem(item);
-      
+      const { id } = item;
+      const label = this.props.children(item);
+
       return (
         <li className="list-group-item"
             key={id}
@@ -54,3 +52,19 @@ export default class ItemList extends Component {
     );
   }
 }
+
+
+const  f = () => {
+  return class extends Component{
+
+
+
+    render() {
+      return   <p>Hi</p>;
+
+
+    }
+  };
+};
+
+export default f();
