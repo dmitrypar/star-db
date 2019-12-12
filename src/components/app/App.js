@@ -8,6 +8,7 @@ import ErrorBoundry from "../error-boundry";
 import Row from '../row';
 import ItemDetails, {Record} from '../item-details/item-details';
 import SwapiService from '../../services/swapi-service';
+import ItemList  from '../item-list/item-list';
 
 import './App.css';
 
@@ -67,13 +68,28 @@ getImageUrl={getStarshipImage}>
       <ErrorBoundry>
         <div className="stardb-app">
           <Header />
-          { planet }
+         // planett
 
 
-<Row
-left={personDetails}
-right={starshipDetails}
-/>
+//Row
+
+<div>
+<ItemList
+              onItemSelected={this.onPersonSelected}
+              getData={this.swapiService.getAllPlanets}>
+
+              {({name}) => <span>{name}</span>}
+</ItemList>
+<ItemList
+              onItemSelected={this.onPersonSelected}
+              getData={this.swapiService.getAllStarships}>
+
+
+{({name}) => <span>{name}</span>}
+
+</ItemList>
+</div>
+
       
 
         </div>
@@ -94,3 +110,13 @@ right={starshipDetails}
           </div>*/
 
          /*     <PeoplePage />*/
+
+
+
+         /*<Row
+left={personDetails}
+right={starshipDetails}
+/>*/
+
+
+/* { planet }*/

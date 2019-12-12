@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './item-list.css';
 import Spinner from "../spinner/spinner";
 
-class ItemList extends Component {
+ class  ItemList extends Component {
 
   state = {
     itemList: null
@@ -54,10 +54,12 @@ class ItemList extends Component {
 }
 
 
-const  f = () => {
+/*const  f = () => {
   return class extends Component{
 
-
+componentDidMount() {
+  console.log(this.props);
+}
 
     render() {
       return   <p>Hi</p>;
@@ -67,4 +69,20 @@ const  f = () => {
   };
 };
 
-export default f();
+export default f();*/
+
+
+const  f = () => {
+  return class extends Component {
+
+
+
+render() {
+  return <ItemList {... this.props} />;
+};
+  };
+}
+
+      
+
+      export default f();
