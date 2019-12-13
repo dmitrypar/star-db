@@ -8,7 +8,15 @@ import ErrorBoundry from "../error-boundry";
 import Row from '../row';
 import ItemDetails, {Record} from '../item-details/item-details';
 import SwapiService from '../../services/swapi-service';
-import ItemList  from '../item-list/item-list';
+import ItemList  from '../item-list';
+import  {
+  PersonDetails,
+  PlanetDetails,
+  StarshipDetails,
+  PersonList,
+  PlanetList,
+  StarshipList
+}  from '../sw-components';
 
 import './App.css';
 
@@ -74,20 +82,19 @@ getImageUrl={getStarshipImage}>
 //Row
 
 <div>
-<ItemList
-              onItemSelected={this.onPersonSelected}
-              getData={this.swapiService.getAllPlanets}>
 
+<PersonList>
               {({name}) => <span>{name}</span>}
-</ItemList>
-<ItemList
-              onItemSelected={this.onPersonSelected}
-              getData={this.swapiService.getAllStarships}>
+</PersonList>
 
+<StarshipList>
+              {({name}) => <span>{name}</span>}
+</StarshipList>
 
-{({name}) => <span>{name}</span>}
+<PlanetList>
+              {({name}) => <span>{name}</span>}
+</PlanetList>
 
-</ItemList>
 </div>
 
       
