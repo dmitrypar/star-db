@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import Header from '../header';
 import RandomPlanet from '../random-planet';
@@ -6,82 +6,85 @@ import RandomPlanet from '../random-planet';
 import ErrorBoundry from "../error-boundry";
 
 import SwapiService from '../../services/swapi-service';
+import {SwapiServiceProvider} from '../swapi-service-context';
 
-import  {
-  PersonDetails,
-  PlanetDetails,
-  StarshipDetails,
-  PersonList,
-  PlanetList,
-  StarshipList
-}  from '../sw-components';
+import {
+    PersonDetails,
+    PlanetDetails,
+    StarshipDetails,
+    PersonList,
+    PlanetList,
+    StarshipList
+} from '../sw-components';
 
 import './App.css';
 
 export default class App extends Component {
 
- swapiService = new SwapiService();
+    swapiService = new SwapiService();
 
-  state = {
-    showRandomPlanet: true
-  };
+    state = {
+        showRandomPlanet: true
+    };
 
-  toggleRandomPlanet = () => {
-    this.setState((state) => {
-      return {
-        showRandomPlanet: !state.showRandomPlanet
-      }
-    });
-  };
-
-
-
-  render() {
-
-    const planet = this.state.showRandomPlanet ?
-      <RandomPlanet/> :
-      null;
+    toggleRandomPlanet = () => {
+        this.setState((state) => {
+            return {
+                showRandomPlanet: !state.showRandomPlanet
+            }
+        });
+    };
 
 
+    render() {
 
-    return (
-      <ErrorBoundry>
-        <div className="stardb-app">
-          <Header />;
-         // planett
+        const planet = this.state.showRandomPlanet ?
+            <RandomPlanet/> :
+            null;
 
 
-//Row
+        return (
+            <ErrorBoundry>
 
-<div>
+                <SwapiServiceProvider value={this.swapiService}>
 
-    <PersonDetails itemId={11}/>
+                    <div className="stardb-app">
+                        <Header/>;
+                        // planett
 
-    <PlanetDetails itemId={3}/>
-    <StarshipDetails itemId={3}/>
 
-<PersonList>
+                        //Row
 
-</PersonList>
+                        <div>
 
-<StarshipList>
+                            <PersonDetails itemId={11}/>
 
-</StarshipList>
+                            <PlanetDetails itemId={3}/>
+                            <StarshipDetails itemId={3}/>
 
-<PlanetList>
+                            <PersonList>
 
-</PlanetList>
+                            </PersonList>
 
-</div>
+                            <StarshipList>
 
-      
+                            </StarshipList>
 
-        </div>
-      </ErrorBoundry>
-    );
-  }
+                            <PlanetList>
+
+                            </PlanetList>
+
+                        </div>
+
+
+                    </div>
+
+                </SwapiServiceProvider>
+
+            </ErrorBoundry>
+        );
+    }
 }
-
 
 
 /*          <div className="row mb2 button-row">
@@ -93,11 +96,10 @@ export default class App extends Component {
             <ErrorButton />
           </div>*/
 
-         /*     <PeoplePage />*/
+/*     <PeoplePage />*/
 
 
-
-         /*<Row
+/*<Row
 left={personDetails}
 right={starshipDetails}
 />*/
