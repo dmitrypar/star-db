@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 
 import Header from '../header';
 import RandomPlanet from '../random-planet';
-import ErrorButton from '../error-button';
-import PeoplePage from '../people-page';
+
 import ErrorBoundry from "../error-boundry";
-import Row from '../row';
-import ItemDetails, {Record} from '../item-details/item-details';
+
 import SwapiService from '../../services/swapi-service';
-import ItemList  from '../item-list';
+
 import  {
   PersonDetails,
   PlanetDetails,
@@ -44,38 +42,12 @@ export default class App extends Component {
       <RandomPlanet/> :
       null;
 
-      const {getPerson,
-       getStarship,
-     getPersonImage,
-      getStarshipImage} = this.swapiService;
 
-        const personDetails = (
-<ItemDetails 
-itemId={11}
-getData={getPerson}
-getImageUrl={getPersonImage}>
-
-<Record field="gender" label = "Gender"/>
-<Record field="eyeColor" label = "Eye Color"/>
-    </ItemDetails>
-    );
-
-    const starshipDetails = (
-<ItemDetails 
-itemId={3}
-getData={getStarship}
-getImageUrl={getStarshipImage}>
-
-<Record field="name" label = "Name"/>
-<Record field="model" label = "Model"/>
-
-</ItemDetails>
-    );
 
     return (
       <ErrorBoundry>
         <div className="stardb-app">
-          <Header />
+          <Header />;
          // planett
 
 
@@ -83,16 +55,21 @@ getImageUrl={getStarshipImage}>
 
 <div>
 
+    <PersonDetails itemId={11}/>
+
+    <PlanetDetails itemId={3}/>
+    <StarshipDetails itemId={3}/>
+
 <PersonList>
-              {({name}) => <span>{name}</span>}
+
 </PersonList>
 
 <StarshipList>
-              {({name}) => <span>{name}</span>}
+
 </StarshipList>
 
 <PlanetList>
-              {({name}) => <span>{name}</span>}
+
 </PlanetList>
 
 </div>
