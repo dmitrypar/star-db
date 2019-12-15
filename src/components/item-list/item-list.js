@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './item-list.css';
-import Spinner from "../spinner/spinner";
-import SwapiService from "../../services/swapi-service";
-import { withData } from '../hoc-helpers';
+
 
 
 
