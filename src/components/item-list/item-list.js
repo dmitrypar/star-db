@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './item-list.css';
 
 
@@ -23,7 +23,7 @@ import './item-list.css';
   });
 
   return (
-    <ul className="item-list list-group">
+    <ul className="item-list list-group-item">
       {items}
     </ul>
   );
