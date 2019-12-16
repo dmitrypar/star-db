@@ -1,11 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import { withData } from '../hoc-helpers';
+import SwapiService from '../../services/swapi-service';
 import './item-list.css';
 
-
-
-
-
- const ItemList = (props) => {
+const ItemList = (props) => {
 
   const { data, onItemSelected, children: renderLabel } = props;
 
@@ -23,37 +23,22 @@ import './item-list.css';
   });
 
   return (
-    <ul className="item-list list-group-item">
+    <ul className="item-list list-group">
       {items}
     </ul>
   );
 };
 
-
-
-export default ItemList;
-
-
-
-
-
-
-
-
-
-/*const  f = () => {
-  return class extends Component{
-
-componentDidMount() {
-  console.log(this.props);
-}
-
-    render() {
-      return   <p>Hi</p>;
-
-
-    }
-  };
+ItemList.defaultProps = {
+  onItemSelected: () => {}
 };
 
-export default f();*/
+ItemList.propTypes = {
+  onItemSelected: PropTypes.func,
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.func.isRequired
+};
+
+const { getAllPeople } = new SwapiService();
+
+export default withData(ItemList, getAllPeople);
