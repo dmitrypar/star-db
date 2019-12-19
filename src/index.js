@@ -1,6 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/app/App';
 
-ReactDOM.render(<App />,
-  document.getElementById('root'));
+
+const reduser = (state=0, action) => {
+
+	switch(action.type) {
+case 'INC':
+return state + 1;
+default:
+return state;
+
+	}
+
+};
+
+let state = reduser(undefined, {})
+
+state = reduser(state, {type:'INC'});
+console.log(state);
+
+state = reduser(state, {type:'INC'});
+
+console.log(state);
