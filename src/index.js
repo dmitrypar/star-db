@@ -1,4 +1,3 @@
-
 const reduser = (state=0, action) => {
 
 	switch(action.type) {
