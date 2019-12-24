@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50bdb300-20cf-4c82-85ef-8727974a9a58" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/app/App.css" />
+        <option value="$PROJECT_DIR$/src/spinner/index.js" />
+        <option value="$PROJECT_DIR$/src/spinner/spinner.js" />
+        <option value="$PROJECT_DIR$/src/spinner/spinner.css" />
+        <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
+        <option value="$PROJECT_DIR$/src/components/person-details/person-details.js" />
+        <option value="$PROJECT_DIR$/src/components/people-page/people-page.css" />
+        <option value="$PROJECT_DIR$/src/components/people-page/index.js" />
+        <option value="$PROJECT_DIR$/src/components/people-page/people-page.js" />
+        <option value="$PROJECT_DIR$/src/services/swapi-service.js" />
+        <option value="$PROJECT_DIR$/../../../star-dbgg/src/services/swapi-service.js" />
+        <option value="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" />
+        <option value="$PROJECT_DIR$/src/components/swapi-service-context/index.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/PersonDetails.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/details.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/index.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/person-details.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/planet-details.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/starship-details.js" />
+        <option value="$PROJECT_DIR$/src/services/dummy-swapi-service.js" />
+        <option value="$PROJECT_DIR$/src/components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/components/item-details/item-details.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" />
+        <option value="$PROJECT_DIR$/src/components/header/header.css" />
+        <option value="$PROJECT_DIR$/src/components/pages/people-page.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/planets-page.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/starships-page.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/item-lists.js" />
+        <option value="$PROJECT_DIR$/src/components/app/App.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helpers/compose.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
+    <option name="y" value="624" />
+    <option name="width" value="829" />
+    <option name="height" value="449" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="redux-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redux-box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redux-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redux-box" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redux-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redux-box" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redux-sundboxgg" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="O:\PROJECTS\react\reactUdemy01\star-db\react-stardb\stardb\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50bdb300-20cf-4c82-85ef-8727974a9a58" name="Default" comment="" />
+      <created>1575396293359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575396293359</updated>
+      <workItem from="1575396294547" duration="7731000" />
+      <workItem from="1575481927186" duration="6041000" />
+      <workItem from="1575566324507" duration="6462000" />
+      <workItem from="1575708234302" duration="25079000" />
+      <workItem from="1575917163675" duration="843000" />
+      <workItem from="1575921714751" duration="2725000" />
+      <workItem from="1576000929301" duration="8491000" />
+      <workItem from="1576087622669" duration="4044000" />
+      <workItem from="1576182434154" duration="224000" />
+      <workItem from="1576259340883" duration="43195000" />
+      <workItem from="1576521029934" duration="1285000" />
+      <workItem from="1576779408882" duration="1171000" />
+      <workItem from="1576786966976" duration="565000" />
+      <workItem from="1576871569473" duration="5834000" />
+    </task>
+    <task id="LOCAL-00001" summary="сделал разметку по компонетам">
+      <created>1575400542631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575400542631</updated>
+    </task>
+    <task id="LOCAL-00002" summary="реализовал загрузку данных рандомной планеты с сервера">
+      <created>1575405279596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575405279596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="реализовал загрузку данных рандомной планеты с сервера">
+      <created>1575405398380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575405398380</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ранд планета грузится сервера в рандомном порядке + подгружается картинка с другого сайта">
+      <created>1575491162821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575491162821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавил индикатор загрузки с сайта loading io">
+      <created>1575491524405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575491524405</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавил логику индикатора загрузки и реализовал вывод кастомной версии ошибки загрузки">
+      <created>1575571069131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575571069131</updated>
+    </task>
+    <task id="LOCAL-00007" summary="привязал item-list to person-details, refactoring person-details to have data from server, use componentDidMount">
+      <created>1575708598158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575708598159</updated>
+    </task>
+    <task id="LOCAL-00008" summary="вынес list s person in separate file - people-page">
+      <created>1575833679041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575833679041</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactoring - people-page - app - item-lis">
+      <created>1575921788631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575921788631</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactoring - разметка внутри компонетов">
+      <created>1575924427728</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575924427728</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactoring - для перерисовки ItemDetail for temlate for  several elements">
+      <created>1576095830107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576095830107</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactoring - начало выноса ItemList elements в функцию высщего порядка">
+      <created>1576182638176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576182638176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactoring - строим структуру интефейса на основании компанента высшего порядка">
+      <created>1576259484422</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576259484423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="заново выстроили блоки UI на основании компонетов высшего порядка">
+      <created>1576339508018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576339508018</updated>
+    </task>
+    <task id="LOCAL-00015" summary="use ContextApi for data transfer without total props connection, used {Prpvider, Consument}">
+      <created>1576355684672</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576355684672</updated>
+    </task>
+    <task id="LOCAL-00016" summary="use HOC context for PersonDetails =&gt; withSwapiService(PersonDetails) =&gt; swapiServise =&gt; data">
+      <created>1576357076969</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576357076969</updated>
+    </task>
+    <task id="LOCAL-00017" summary="transform props and they name use mapItemMethodToProos">
+      <created>1576417745241</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576417745241</updated>
+    </task>
+    <task id="LOCAL-00018" summary="create button to switch server service">
+      <created>1576428010552</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576428010552</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cleaning App and build work structure">
+      <created>1576431215290</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576431215290</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create separate page for each topic">
+      <created>1576439759448</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576439759448</updated>
+    </task>
+    <task id="LOCAL-00021" summary="finishing">
+      <created>1576527763937</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576527763937</updated>
+    </task>
+    <task id="LOCAL-00022" summary="finishing and  routing">
+      <created>1576780746386</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576780746387</updated>
+    </task>
+    <task id="LOCAL-00023" summary="finishing and  routing">
+      <created>1576780840054</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576780840054</updated>
+    </task>
+    <task id="LOCAL-00024" summary="start">
+      <created>1576787029712</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576787029712</updated>
+    </task>
+    <task id="LOCAL-00025" summary="start">
+      <created>1576787157747</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576787157747</updated>
+    </task>
+    <task id="LOCAL-00026" summary="start">
+      <created>1576787306436</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576787306436</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113690000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="32" y="624" width="829" height="449" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27306274" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="сделал разметку по компонетам" />
+    <MESSAGE value="реализовал загрузку данных рандомной планеты с сервера" />
+    <MESSAGE value="ранд планета грузится сервера в рандомном порядке + подгружается картинка с другого сайта" />
+    <MESSAGE value="добавил индикатор загрузки с сайта loading io" />
+    <MESSAGE value="добавил логику индикатора загрузки и реализовал вывод кастомной версии ошибки загрузки" />
+    <MESSAGE value="привязал item-list to person-details, refactoring person-details to have data from server, use componentDidMount" />
+    <MESSAGE value="вынес list s person in separate file - people-page" />
+    <MESSAGE value="refactoring - people-page - app - item-lis" />
+    <MESSAGE value="refactoring - разметка внутри компонетов" />
+    <MESSAGE value="refactoring - для перерисовки ItemDetail for temlate for  several elements" />
+    <MESSAGE value="refactoring - начало выноса ItemList elements в функцию высщего порядка" />
+    <MESSAGE value="refactoring - строим структуру интефейса на основании компанента высшего порядка" />
+    <MESSAGE value="заново выстроили блоки UI на основании компонетов высшего порядка" />
+    <MESSAGE value="use ContextApi for data transfer without total props connection, used {Prpvider, Consument}" />
+    <MESSAGE value="use HOC context for PersonDetails =&gt; withSwapiService(PersonDetails) =&gt; swapiServise =&gt; data" />
+    <MESSAGE value="transform props and they name use mapItemMethodToProos" />
+    <MESSAGE value="create button to switch server service" />
+    <MESSAGE value="cleaning App and build work structure" />
+    <MESSAGE value="create separate page for each topic" />
+    <MESSAGE value="finishing" />
+    <MESSAGE value="finishing and  routing" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="27106" column="6" selection-start-line="27106" selection-start-column="6" selection-end-line="27106" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spinner/spinner.css" />
+    <entry file="file://$PROJECT_DIR$/src/spinner/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/spinner/spinner.js" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="3564" column="10" selection-start-line="3564" selection-start-column="10" selection-end-line="3564" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/yargs/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="719" column="9" selection-start-line="719" selection-start-column="9" selection-end-line="719" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/babel__core/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/person-details/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/people-page/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="2145" column="2" selection-start-line="2145" selection-start-column="2" selection-end-line="2145" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/starship-details/starship-details.js" />
+    <entry file="file://$PROJECT_DIR$/../../../star-dbgg/src/services/swapi-service.js" />
+    <entry file="file://$PROJECT_DIR$/src/services/swapi-service.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/spinner/spinner.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/swapi-service-context/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/spinner/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/details.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/starship-details.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/planet-details.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/person-details.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/item-details/item-details.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" />
+    <entry file="file://$PROJECT_DIR$/src/services/dummy-swapi-service.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/item-lists.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/pages/planets-page.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/pages/starships-page.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/pages/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/app/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/pages/people-page.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helpers/compose.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
